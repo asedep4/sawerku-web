@@ -1,0 +1,25 @@
+{
+  "name": "sawerku-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web pesan sawer (username + kata-kata) yang tampil langsung di game Roblox",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.17",
+    "next": "^16.4.6",
+    "postgres": "^3.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
